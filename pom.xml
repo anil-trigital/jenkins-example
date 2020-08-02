@@ -63,10 +63,9 @@
     </repositories>
 
     <distributionManagement>
-        <repository>
-            <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/9Q8JoRpymi4UGK8HzbVq/</url>
-        </repository>
+        <id>deployment</id>
+             <name>Internal Snapshot Release</name>
+             <url>http://18.191.174.167:8081/repository/maven-snapshots/</url>
     </distributionManagement>
 
 </project>
